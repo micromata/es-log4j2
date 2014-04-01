@@ -1,0 +1,57 @@
+{
+  "%s": {
+    "properties": {
+      "contextMap": {
+        "type": "object"
+      },
+      "date": {
+        "type": "date",
+        "format": "dateOptionalTime"
+      },
+      "level": {
+        "type": "string"
+      },
+      "loggerName": {
+        "type": "string"
+      },
+      "message": {
+        "type": "string"
+      },
+      "millis": {
+        "type": "long"
+      },
+      "source": {
+        "properties": {
+          "className": {
+            "type": "string"
+          },
+          "fileName": {
+            "type": "string"
+          },
+          "lineNumber": {
+            "type": "long"
+          },
+          "methodName": {
+            "type": "string"
+          }
+        }
+      },
+      "threadName": {
+        "type": "string"
+      },
+      "thrown": {
+        "properties": {
+          "message": {
+            "type": "string"
+          },
+          "stackTrace": {
+            "type": "string"
+          },
+          "type": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}
